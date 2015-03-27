@@ -16,7 +16,7 @@ public class ChessPiece {
     
     /**
      *
-     * @param pieceName The name of the piece. pawn1
+     * @param pieceName The name of the piece. ex:pawn1
      * @param pieceType The type of the piece. ex: PAWN
      * @param pieceXCoord The x coordinate of the piece
      * @param pieceYCoord The y coordinate of the piece
@@ -39,8 +39,8 @@ public class ChessPiece {
     }
 
     /**
-     * States the position of the piece. Mainly for testing purposes.
-     * @return String representation of the position of the piece.
+     * Gets the position of the piece in string form. Mainly for testing purposes.
+     * @return pos
      */
     public String getPosition(){
 
@@ -50,8 +50,8 @@ public class ChessPiece {
     }
     
     /**
-     *
-     * @return
+     * Gets the name of the piece
+     * @return name
      */
     public String getName(){
     
@@ -59,7 +59,7 @@ public class ChessPiece {
     }
     
     /**
-     *
+     * Sets the name of the chess piece
      * @param pieceName
      */
     public void setName(String pieceName){
@@ -68,7 +68,7 @@ public class ChessPiece {
     }
     
     /**
-     *
+     * Gets the type of the chess piece
      * @return
      */
     public String getType(){
@@ -77,7 +77,7 @@ public class ChessPiece {
     }
     
     /**
-     *
+     * Sets the type of the chess piece
      * @param pieceType
      */
     public void setType(String pieceType){
@@ -86,8 +86,8 @@ public class ChessPiece {
     }
     
     /**
-     *
-     * @return
+     * Gets the x coordinate of the chess piece
+     * @return xCoord
      */
     public Integer getXCoord(){
         
@@ -95,7 +95,7 @@ public class ChessPiece {
     }
     
     /**
-     *
+     * Sets the x coordinate of the chess piece
      * @param pieceXCoord
      */
     public void setXCoord(Integer pieceXCoord){
@@ -104,8 +104,8 @@ public class ChessPiece {
     }
     
     /**
-     *
-     * @return
+     * Gets the y coordinate of the chess piece
+     * @return yCoord
      */
     public Integer getYCoord(){
         
@@ -113,7 +113,7 @@ public class ChessPiece {
     }
     
     /**
-     *
+     * Sets the y  coordinate of the chess piece
      * @param pieceYCoord
      */
     public void setYCoord(Integer pieceYCoord){
