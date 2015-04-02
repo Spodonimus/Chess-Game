@@ -24,8 +24,8 @@ public class ChessPiece {
      */
         
     
-    public ChessPiece (String pieceName, String pieceType, Integer pieceXCoord, 
-                       Integer pieceYCoord, Integer pieceTeamSide)
+    public ChessPiece (String pieceName, PieceType pieceType, Integer pieceXCoord, 
+                       Integer pieceYCoord, TeamSide pieceTeamSide)
     {
         name = pieceName;
         
@@ -71,7 +71,7 @@ public class ChessPiece {
      * Gets the type of the chess piece
      * @return
      */
-    public String getType(){
+    public PieceType getType(){
         
         return type;
     }
@@ -80,7 +80,7 @@ public class ChessPiece {
      * Sets the type of the chess piece
      * @param pieceType
      */
-    public void setType(String pieceType){
+    public void setType(PieceType pieceType){
         
         type = pieceType;
     }
@@ -127,7 +127,7 @@ public class ChessPiece {
     String name;
     
     //The type of the piece
-    String type;
+    PieceType type;
     
     //The x coordinate of the piece on the board
     Integer xCoord;
@@ -136,5 +136,5 @@ public class ChessPiece {
     Integer yCoord;
     
     //The team that the piece is on. Should be 1 or 2.
-    Integer teamSide;
+    TeamSide teamSide;
 }
