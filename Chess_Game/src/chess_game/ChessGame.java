@@ -43,7 +43,7 @@ public class ChessGame {
         ChessPiece queenT1 = new ChessPiece("queenT1", PieceType.QUEEN, 1, 4, TeamSide.BOTTOM);
         
         //king for team 1
-        ChessPiece kingT1 = new ChessPiece("kingT1", PieceType.QUEEN, 1, 5, TeamSide.BOTTOM);
+        ChessPiece kingT1 = new ChessPiece("kingT1", PieceType.KING, 1, 5, TeamSide.BOTTOM);
     
         
         //team 2 chess pieces (team 2 = top)
@@ -74,7 +74,7 @@ public class ChessGame {
         ChessPiece queenT2 = new ChessPiece("queenT2", PieceType.QUEEN, 7, 4, TeamSide.TOP);
         
         //king for team 1
-        ChessPiece kingT2 = new ChessPiece("kingT2", PieceType.QUEEN, 7, 5, TeamSide.TOP);
+        ChessPiece kingT2 = new ChessPiece("kingT2", PieceType.KING, 7, 5, TeamSide.TOP);
     }
     
     public void start(){

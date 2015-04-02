@@ -5,13 +5,12 @@
  */
 package chess_game;
 
-import java.io.Console;
 
 /**
  *
  * @author Andrew
  */
-public class ChessConsole {
+public class Main {
 
     /**
      * @param args the command line arguments
