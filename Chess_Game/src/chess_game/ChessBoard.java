@@ -12,7 +12,7 @@ package chess_game;
 public class ChessBoard {
     
     
-    int[] xCoord = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int[] xCoord = {1, 2, 3, 4, 5, 6, 7, 8};
     
-    int[] yCoord = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int[] yCoord = {1, 2, 3, 4, 5, 6, 7, 8};
 }
